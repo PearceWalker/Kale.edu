@@ -4,6 +4,7 @@
     --grey-color: #7e736b;
     --dark-color: #222;
     --dark-gray: #4a4a4a;
+    --kale-text: #056608;
 }
 
 * {
@@ -39,6 +40,12 @@ p {
     color:white;
 }
 
+.covid-banner {
+    background-color: #1aaf1f8e;
+    text-align: center;
+    padding: 1.5rem;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -50,7 +57,7 @@ header {
 }
 
 header .btn.btn.drop-down {
-    background-color: var(--primary-color);
+    background-color: var(--kale-text);
     color: white;
 }
 
@@ -146,10 +153,11 @@ header nav.main .main_nav_item {
 }
 
 .hero .text {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(233, 230, 230, 0.514);
     grid-column: 1/3;
     grid-row: 2/3;
     z-index: 1;
+   
 }
 
 .hero .image {
