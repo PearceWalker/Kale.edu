@@ -272,10 +272,7 @@ background-color: #222          ;
 }
 
 
-.footer_nav.help_nav a{
-    color: white;
-    text-decoration: none;
-}
+
 
 h2 span {
     text-decoration: underline;
@@ -285,6 +282,118 @@ h2 span {
 .all-footer{
     background-color: #222;
     
+}
+
+.all-footer a {
+}
+
+.footer_nav_link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_nav_link:hover{
+color: rgba(255, 255, 255, 0.507);
+}
+
+/* grid-design */
+
+.grid-design-container {
+    display: grid;
+    grid-template-areas: 
+    "one two ten ten"
+    "three four ten ten"
+    "five five six seven "
+    "five five eight nine"
+    ;
+    margin-top: 100px;
+}
+
+.grid-contain {
+    background-color: #056608;
+    height: 200vh;
+}
+
+.box-one{
+    grid-area: one;
+    background-image: url(images/ashleigh-shea-kFZ2nivVBYI-unsplash.jpg);
+    height: 294px;
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-two{
+    grid-area: two;
+    height: 294px;
+    background-image: url(images/teachingkale.jpeg);
+    background-size: contain;
+    z-index: 3;
+}
+
+.box-three{
+    grid-area: three;
+    height: 294px;
+    background-image: url(images/saybrook_college_04.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-four{
+    grid-area: four;
+    height: 294px;
+    background-image: url(images/root.jpeg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-five{
+    grid-area: five;
+    height: 588px;
+    background-image: url(images/marisa-morton-GunHGc3Xxu8-unsplash.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-six{
+    grid-area: six;
+    height: 294px;
+    background-image: url(images/kale-farm.jpeg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-seven{
+    grid-area: seven;
+    height: 294px;
+    background-image: url(images/bl0354_07.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-eight{
+    grid-area: eight;
+    height: 294px;
+    background-image: url(images/botany.jpeg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-nine{
+    grid-area: nine;
+    height: 294px;
+    background-image: url(images/class_day6.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.box-ten{
+grid-area: ten;
+width: 110%;
+height: 120%;
+background-image: url(images/ezra_stiles_college4.jpg);
+background-size: cover;
+margin-top: -50px;
+margin-left: -50px;
 }
 
 
