@@ -285,6 +285,12 @@ h2 span {
 }
 
 .all-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.all-footer a:hover{
+    color: rgba(255, 255, 255, 0.507);
 }
 
 .footer_nav_link {
