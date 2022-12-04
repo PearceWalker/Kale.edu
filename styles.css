@@ -245,3 +245,39 @@ header nav.main .main_nav_item {
     padding: 20px;
     text-decoration: none;;
 }
+
+.footer_nav.help_nav{
+    
+    color: rgb(145, 245, 125);
+ 
+}
+
+.region.region-footer{
+background-color: black;
+}
+.footer_nav_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer_nav h2{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: rgb(145, 245, 125);
+}
+
+
+.footer_nav.help_nav a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 span {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+}
