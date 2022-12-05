@@ -349,6 +349,7 @@ font-weight: 100;
     grid-area: one;
     background-color: #0db313 ;
     height: 294px;
+    
     background-size: cover;
     z-index: 3;
     display: flex;
@@ -356,6 +357,10 @@ font-weight: 100;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.box-one h3 {
+    color: white;
 }
 
 .explore {
@@ -367,6 +372,7 @@ font-weight: 100;
     align-items: center;
     gap: 40px;
     color: #0db313;
+    transition-duration: .3s;
 }
 .explore:hover {
     color: #222;
@@ -381,7 +387,7 @@ font-weight: 100;
     align-items: center;
     gap: 10px;
     color: white;
-    
+    transition-duration: .5s;
 }
 
 .shuffle:hover{
@@ -391,13 +397,38 @@ font-weight: 100;
    
 }
 
+
+
+.text:hover {
+    transform: translateY(-15px);
+    transition: all .25s ease-in;
+}
+
 .box-two{
     grid-area: two;
     height: 294px;
+    width: 294px;
     background-image: url(images/teachingkale.jpeg);
     background-size: contain;
     z-index: 3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: left;
+    
+  
 }
+.box-two h3 {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.box-two h5 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    margin-bottom: 3.1rem;
+}
+
 
 .box-three{
     grid-area: three;
@@ -405,6 +436,22 @@ font-weight: 100;
     background-image: url(images/saybrook_college_04.jpg);
     background-size: cover;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: left;
+}
+
+.box-three h3 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: white;
+}
+.box-three h5 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    margin-bottom: 3.1rem;
+    color: white;
 }
 
 .box-four{
@@ -413,6 +460,7 @@ font-weight: 100;
     background-image: url(images/root.jpeg);
     background-size: cover;
     z-index: 3;
+    width: 294px;
 }
 
 .box-five{
@@ -480,7 +528,7 @@ margin-left: -150px;
         
             }
             100%{
-        transform: translateY(20%);
+        transform: translateY(-20%);
         
             }
 }
